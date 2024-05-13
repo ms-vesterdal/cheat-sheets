@@ -1,0 +1,4 @@
+Commands
+git init --> to create a git repository in your current directory, this will start the process of saving changes to the code.
+git checkout -b main --> to change the default branch to be called main.
+git status --> this gives a status of the project i.e. the branch we are on, the commits made, and what is in the staging area (using add).
