@@ -2,3 +2,6 @@ Commands
 git init --> to create a git repository in your current directory, this will start the process of saving changes to the code.
 git checkout -b main --> to change the default branch to be called main.
 git status --> this gives a status of the project i.e. the branch we are on, the commits made, and what is in the staging area (using add).
+git add --> this tells git to keep track of a document, adds it to the staging area.  
+git commit -m "message" --> this commits the changes made to the documents and stores it in the git repository. all changes made to documents added to the staging area are then committed to a new version of the documents. You can add a message explaining what changes you have made in the new commit/new version of the documents.
+git log --> lists all the commits made to a repository in reverse chronological order. 
