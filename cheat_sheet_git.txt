@@ -1,0 +1,9 @@
+Commands
+git init --> to create a git repository in your current directory, this will start the process of saving changes to the code.|
+git checkout -b main --> to change the default branch to be called main.
+git status --> this gives a status of the project i.e. the branch we are on, the commits made, and what is in the staging area (using add).
+git add --> this tells git to keep track of a document, adds it to the staging area.  
+git commit -m "message" --> this commits the changes made to the documents and stores it in the git repository. all changes made to documents added to the staging area are then committed to a new version of the documents. You can add a message explaining what changes you have made in the new commit/new version of the documents.
+git log --> lists all the commits made to a repository in reverse chronological order. 
+git diff --> will show the differences in version previously committet and the version you are currently working on. Will show what has been changed and which versions are being compared. If you add a --staged to the command, then you will see the difference between the version that has been added to the staging area and the previously committet version. Here you can also use HEAD or HEAD~number to get difference to a specific version of the saved document. 
+git checkout HEAD text.txt --> restores an old version of a text file and with HEAD it is the last saved version. you can use HEAD~2 to get a version 2 saves ago. (if you dont have the text.txt filename in the command then you go into a 'detached head' state where you can look around in a previous version but may not change anything. get out of the state by using git checkout main.)  
